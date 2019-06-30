@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: test  #本次访问的配置项
+      label: master
+      uri: http://config-3344:3344 #config-server配置中心的地址
+      name: microcloudservice-config-client  #从github上要访问的资源的名称 注意 没有后缀

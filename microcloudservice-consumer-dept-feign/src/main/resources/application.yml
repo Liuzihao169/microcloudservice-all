@@ -1,0 +1,16 @@
+server:
+  port: 80
+eureka:
+  client:
+    service-url:
+#eureka发现服务的列表
+       defaultZone: http://eureka7001:7001/eureka,http://eureka7003:7003/eureka,http://eureka7002:7002/eureka
+#自己不能注册 自己只需要通过eureka发现服务
+    register-with-eureka: false
+  instance:
+    appname: microcloudserviceconsumer
+#使用ip索取服务
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true

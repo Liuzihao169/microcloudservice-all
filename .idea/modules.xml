@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microcloudservic-eprovider-dept-histrix-8001/microcloudservic-eprovider-dept-histrix-8001.iml" filepath="$PROJECT_DIR$/microcloudservic-eprovider-dept-histrix-8001/microcloudservic-eprovider-dept-histrix-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice.iml" filepath="$PROJECT_DIR$/microcloudservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-api/microcloudservice-api.iml" filepath="$PROJECT_DIR$/microcloudservice-api/microcloudservice-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-config-3344/microcloudservice-config-3344.iml" filepath="$PROJECT_DIR$/microcloudservice-config-3344/microcloudservice-config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-config-client-3355/microcloudservice-config-client-3355.iml" filepath="$PROJECT_DIR$/microcloudservice-config-client-3355/microcloudservice-config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-config-dept-provider-client-8888/microcloudservice-config-dept-provider-client-8888.iml" filepath="$PROJECT_DIR$/microcloudservice-config-dept-provider-client-8888/microcloudservice-config-dept-provider-client-8888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-config-eureka-client7004-7005/microcloudservice-config-eureka-client7004-7005.iml" filepath="$PROJECT_DIR$/microcloudservice-config-eureka-client7004-7005/microcloudservice-config-eureka-client7004-7005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-consumer-dept-80/microcloudservice-consumer-dept-80.iml" filepath="$PROJECT_DIR$/microcloudservice-consumer-dept-80/microcloudservice-consumer-dept-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-consumer-dept-feign/microcloudservice-consumer-dept-feign.iml" filepath="$PROJECT_DIR$/microcloudservice-consumer-dept-feign/microcloudservice-consumer-dept-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-consumer-hystrix-dashboard/microcloudservice-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microcloudservice-consumer-hystrix-dashboard/microcloudservice-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-eureka-7001/microcloudservice-eureka-7001.iml" filepath="$PROJECT_DIR$/microcloudservice-eureka-7001/microcloudservice-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-eureka-7002/microcloudservice-eureka-7002.iml" filepath="$PROJECT_DIR$/microcloudservice-eureka-7002/microcloudservice-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-eureka-7003/microcloudservice-eureka-7003.iml" filepath="$PROJECT_DIR$/microcloudservice-eureka-7003/microcloudservice-eureka-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-provide-rdept-8001/microcloudservice-provide-rdept-8001.iml" filepath="$PROJECT_DIR$/microcloudservice-provide-rdept-8001/microcloudservice-provide-rdept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-provide-rdept-8002/microcloudservice-provide-rdept-8002.iml" filepath="$PROJECT_DIR$/microcloudservice-provide-rdept-8002/microcloudservice-provide-rdept-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-provider-dept-8003/microcloudservice-provider-dept-8003.iml" filepath="$PROJECT_DIR$/microcloudservice-provider-dept-8003/microcloudservice-provider-dept-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microcloudservice-zuul-gateway-9527/microcloudservice-zuul-gateway-9527.iml" filepath="$PROJECT_DIR$/microcloudservice-zuul-gateway-9527/microcloudservice-zuul-gateway-9527.iml" />
+    </modules>
+  </component>
+</project>

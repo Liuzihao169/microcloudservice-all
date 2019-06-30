@@ -1,0 +1,25 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: zuul-gateway
+  profiles:
+    active:
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka,http://eureka7003:7003/eureka,http://eureka7002:7002/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: myzuul
+  #配置info信息
+#  info:
+#    app.name: kuake-cloudapplication
+#    company.name: kuake
+zuul:
+  ignored-services: "*" #屏蔽所有之前通过服务名称访问
+  routes:
+    dept.serviceId: provider
+    dept.path: /mydept/**

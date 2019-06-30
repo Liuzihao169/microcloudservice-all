@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #使用druid数据源
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/springcloud003
+  #   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+  application:
+    name: provider
+  resources:
+    static-locations:  #对外暴露服务的名
+server:
+  port: 8003
+mybatis:        #mybatis基本的配置
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations:
+    - classpath:mybatis/mapper/DeptMapper.xml
+logging:
+  level:
+    com.kuake.springcloud.dao: debug #设置指定包下的日志等级 【trace debug info warn error】
+eureka:  #设置eureka注册服务的地址
+  client:
+    service-url:
+       defaultZone:  http://eureka7001:7001/eureka,http://eureka7003:7003/eureka,http://eureka7002:7002/eureka
+  instance:
+    instance-id: microcloudservice-provider-dept-8003 #配置服务的别名
+# 注册的时候使用ip注册
+    prefer-ip-address: true
+info:
+  app.name: kuake-cloudapplication
+  company.name: kuake
+#获得pom.xml的相关信息 需要在pom.xml里面配置资源解析器插件
+  bulid.version: $project.version$
+  bulid.artifactId: $project.artifactId$
+
